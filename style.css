@@ -177,8 +177,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 .explore{
-    width: 1440px;
-height: 648.89px;
+    max-width: 1440px;
 }
 .explore_tit{
     color: rgb(0, 0, 0);
@@ -198,6 +197,33 @@ margin-bottom: 64px;
     max-width: 422px;
 height: 520px;
 }
-.card_img{
-    
+.card_img:last-child{
+    height: 500px;
+}
+.greeting{
+    height: 422px;
+    height: 70px;
+    background:  #FCF0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    transition: 0.3s;
+}
+.greeting:hover{
+    background: rgb(255, 14, 14);
+    color: white;
+}
+.say_tit{
+    color: rgb(241, 9, 9);
+font-family: Risque;
+font-size: 40px;
+font-weight: 400;
+line-height: 51.84px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.say{
+    max-width: 1440px;
 }
