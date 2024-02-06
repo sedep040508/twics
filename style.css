@@ -222,8 +222,59 @@ font-weight: 400;
 line-height: 51.84px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 82px;
 
+}
+.say_img{
+    display: flex;
 }
 .say{
     max-width: 1440px;
+    height: 900px;
+}
+.say1{
+width: 108px;
+height: 151px;
+
+}
+.say2{
+
+width: 288px;
+height: 391px;
+
+}
+.say3{
+width: 331px;
+height: 326px;
+}
+.say4{
+width: 230px;
+height: 304px;
+}
+.say5{
+width: 230px;
+height: 230px;
+}
+.say6{
+width: 245px;
+height: 313px;
+
+}
+.say7{
+width: 302px;
+height: 338px;
+}
+.footer{
+    max-width: 1440px;
+    height: 557px;
+    background: rgb(250, 132, 132);
+}
+.footer_top{
+    width: 1382.41px;
+height: 55px;
+}
+.footer_logo{
+    width: 135px;
+    height: 55px;
+    padding: 65px 0 0 29px;
 }
