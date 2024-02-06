@@ -181,7 +181,7 @@ text-align: left;
 }
 .explore_tit{
     color: rgb(0, 0, 0);
-font-family: Risque;
+    font-family: Risque;
 font-size: 52px;
 font-weight: 400;
 line-height: 64.8px;
@@ -325,9 +325,53 @@ height: 172px;
 }
 .footer_bottom{
     display: flex;
-    gap: 6px;
+    margin-top: 100px;
+    gap: 200px;
 }
 .bottom_left{
     color: rgba(252, 248, 243, 0.8);
 font-size: 15px;
+}
+.bottom_center{
+    display: flex;
+    gap: 36px;
+}
+.center_tit{
+    color: rgba(252, 248, 243, 0.8);
+font-size: 15px;
+}
+.bottom_right{
+    color: rgba(252, 248, 243, 0.8);
+font-size: 15px;
+}
+.birthday{
+    max-width: 1296px;
+}
+.b_top{
+    color: rgb(0, 0, 0);
+font-family: Rhodium Libre;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.birth_tit{
+    color: rgb(255, 14, 14);
+font-family: Risque;
+font-size: 41px;
+font-weight: 400;
+line-height: 51.84px;
+text-align: left;
+max-width: 484px;
+margin-bottom: 25px;
+}
+.birth_txt{
+    color: rgb(0, 0, 0);
+font-size: 16px;
+max-width: 478px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
 }
