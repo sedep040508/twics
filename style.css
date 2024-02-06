@@ -205,10 +205,11 @@ section {
 	align-items: center;
 	padding: 0 20px;
 	color: rgb(0, 0, 0);
-  }
+	transition: 0,3s;
+}
   
   .header__wrap .menu > li > a:hover {
-	color: rgb(150, 10, 129);
+	color: rgb(255, 14, 14);
   }
 .list{
     display: flex;
@@ -281,7 +282,9 @@ margin-bottom: 82px;
 .footer{
     padding: 64px 28px 0 28px;
     max-width: 1440px;
-    background: rgb(250, 132, 132);
+}
+footer{
+	background: rgb(250, 132, 132);
 }
 .footer_top{
     display: flex;
@@ -313,6 +316,7 @@ text-align: left;
 }
 .footer_cards{
     padding-top: 65px;
+	gap: 25px;
 }
 .card_top{
     width: 319px;
@@ -323,7 +327,7 @@ color: rgba(252, 248, 243, 0.8);
 }
 .white{
     margin-bottom: 30px;
-    width: 280px;
+    width: 320px;
 height: 1px;
 background: rgba(252, 248, 243, 0.5);
 }
@@ -391,4 +395,7 @@ margin-bottom: 62px;
 .btn{
     width: 192px;
 height: 47px;
+}
+.header_icons{
+	gap: 16px;
 }
