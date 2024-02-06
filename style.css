@@ -265,20 +265,69 @@ width: 302px;
 height: 338px;
 }
 .footer{
+    padding: 64px 28px 0 28px;
     max-width: 1440px;
     height: 557px;
     background: rgb(250, 132, 132);
 }
 .footer_top{
+    display: flex;
     max-width: 1382.41px;
 height: 55px;
+justify-content: space-between;
 }
 .footer_logo{
     width: 135px;
     height: 55px;
-    padding: 65px 0 0 29px;
 }
 .footer_icons{
+    display: flex;
+    gap: 36px;
     max-width: 192px;
     height: 25px;
+    align-items: center;
+    margin-right: 30px;
+}
+.footer_icon{
+    color: rgba(252, 248, 243, 0.8);
+font-size: 15px;
+font-weight: 400;
+text-align: left;
+}
+.footer_card{
+    max-width: 318.59px;
+    height: 246.19px;
+}
+.footer_cards{
+    padding-top: 65px;
+    display: flex;
+}
+.card_top{
+    width: 319px;
+height: 53px;
+font-size: 16px;
+font-weight: 400;
+color: rgba(252, 248, 243, 0.8);
+}
+.white{
+    margin-bottom: 30px;
+    width: 280px;
+height: 1px;
+background: rgba(252, 248, 243, 0.5);
+}
+.card_bottom{
+    width: 318.59px;
+height: 172px;
+}
+.card_tit{
+    margin-bottom: 17px;
+    color: rgba(252, 248, 243, 0.8);
+}
+.footer_bottom{
+    display: flex;
+    gap: 6px;
+}
+.bottom_left{
+    color: rgba(252, 248, 243, 0.8);
+font-size: 15px;
 }
