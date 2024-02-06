@@ -225,44 +225,12 @@ text-align: center;
 margin-bottom: 82px;
 
 }
-.say_img{
+.flex{
     display: flex;
 }
 .say{
     max-width: 1440px;
     height: 900px;
-}
-.say1{
-width: 108px;
-height: 151px;
-
-}
-.say2{
-
-width: 288px;
-height: 391px;
-
-}
-.say3{
-width: 331px;
-height: 326px;
-}
-.say4{
-width: 230px;
-height: 304px;
-}
-.say5{
-width: 230px;
-height: 230px;
-}
-.say6{
-width: 245px;
-height: 313px;
-
-}
-.say7{
-width: 302px;
-height: 338px;
 }
 .footer{
     padding: 64px 28px 0 28px;
@@ -300,7 +268,6 @@ text-align: left;
 }
 .footer_cards{
     padding-top: 65px;
-    display: flex;
 }
 .card_top{
     width: 319px;
@@ -374,4 +341,10 @@ max-width: 478px;
 font-weight: 400;
 line-height: 28.8px;
 text-align: left;
+height: 269px;
+margin-bottom: 62px;
+}
+.btn{
+    width: 192px;
+height: 47px;
 }
