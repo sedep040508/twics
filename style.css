@@ -174,7 +174,7 @@ section {
 	display: flex;
 	justify-content: space-between;
 	height: 100%;
-	margin-top: 20px;
+	margin-top: 30px;
   }
   
   .hamb {
@@ -192,7 +192,7 @@ section {
   }
   .header__wrap .menu {
 	display: flex;
-	margin-right: 800px;
+
   }
   
   .header__wrap .menu > li {
