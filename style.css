@@ -451,4 +451,9 @@ text-align: left;
 border: 1px solid rgb(0, 0, 0);
 border-radius: 40px;
 background: rgb(0, 0, 0);
+color: white;
+}
+.sellers .btn:hover{
+	background: white;
+	color: #000;
 }
