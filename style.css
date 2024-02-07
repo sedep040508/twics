@@ -445,6 +445,10 @@ text-align: left;
 }
 .sellers .btn{
 	width: 229px;
-height: 47px;
-transform: rotate(90.00deg);
+	height: 47px;
+	transform: rotate(90.00deg);
+	box-sizing: border-box;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 40px;
+background: rgb(0, 0, 0);
 }
