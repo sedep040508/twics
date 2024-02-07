@@ -130,7 +130,7 @@ section {
 .btn {
 	border-radius: 40px;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 13px;
 	text-align: center;
 	text-transform: uppercase;
 	color: #34280E;
@@ -144,6 +144,7 @@ section {
 	padding: 14px 0;
 	transition: 0.3s;
 	width: 130px;
+	gap: 15px;
 }
 
 .btn:hover {
@@ -154,7 +155,11 @@ section {
 .link {
 	transition: 0.3s;
 }
-
+.btn_img{
+	transition: 0.3s;
+	width: 34px;
+	height: 14px;
+}
 .link:hover {
 	box-shadow: 0px 6px 5px 2px #836A36;
 }
