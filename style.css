@@ -405,9 +405,13 @@ height: 47px;
 	max-width: 504px;
 }
 .small_tit{
+
 	color:#F10909;
 	font-family: Risque;
 	font-weight: 400;
 	font-size: 54px;
 	text-align: center;
+	line-height: 64.8px;
+	max-width: 893px;
+	justify-content: center;
 }
