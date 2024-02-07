@@ -360,7 +360,9 @@ font-size: 15px;
 font-size: 15px;
 }
 .birthday{
+	gap: 75px;
     max-width: 1296px;
+	margin-left: 50px;
 }
 .b_top{
     color: rgb(0, 0, 0);
@@ -398,4 +400,7 @@ height: 47px;
 }
 .header_icons{
 	gap: 16px;
+}
+.birthday_left{
+	max-width: 504px;
 }
