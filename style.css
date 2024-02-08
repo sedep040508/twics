@@ -434,6 +434,9 @@ letter-spacing: 0%;
 text-align: left;
 margin-bottom: 20px;
 }
+.ship{
+	max-width: 1440px;
+}
 .sec_txt{
 	max-width: 309px;
 	color: rgba(33, 40, 6, 0.8);
