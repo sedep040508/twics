@@ -127,7 +127,6 @@ section {
 	color: #BE963F;
 }
 .btn {
-	margin-left: 550px;
 	border-radius: 40px;
 	font-weight: 400;
 	font-size: 13px;
@@ -463,3 +462,41 @@ color: white;
 	background: white;
 	color: #000;
 }
+.led{
+	max-width: 1440px;
+}
+.led_tit{
+	color: rgb(0, 0, 0);
+font-family: Risque;
+font-size: 53px;
+font-weight: 400;
+line-height: 64.8px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 65px;
+}
+.led_cards{
+	gap: 28px;
+}
+.led_card{
+	max-width: 300px;
+}
+.led_img{
+	width: 220px;
+height: 220px;
+margin-left: 30px;
+}
+.led_txt{
+	color: rgb(255, 14, 14);
+font-size: 23px;
+font-weight: 400;
+line-height: 35.28px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* .small button{
+	margin-left: 550px;
+}
+.birthday button{
+	margin-left: 270px;
+} */
