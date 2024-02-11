@@ -5,6 +5,7 @@ const body = document.body;
 // Клонируем меню, чтобы задать свои стили для мобильной версии
 const menu = document.querySelector("#menu").cloneNode(1);
 
+
 // При клике на иконку hamb вызываем ф-ию hambHandler
 hamb.addEventListener("click", hambHandler);
 
