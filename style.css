@@ -512,11 +512,12 @@ text-align: center;
 	background:rgb(252, 240, 240)
 }
 .stars{
+	padding-left:150px;
 	margin-top: 115px;
 	margin-bottom: 49px;
 }
 .high_tit{
-	width: 419px;
+	max-width: 419px;
 	color: rgb(0, 0, 0);
 font-family: Risque;
 font-size: 43px;
@@ -537,6 +538,7 @@ text-transform: uppercase;
 margin-bottom: 20px;
 }
 .square{
+
 	box-sizing: border-box;
 border: 1px solid rgb(255, 14, 14);
 background: rgb(255, 14, 14);
@@ -545,4 +547,5 @@ height: 12px;
 }
 .squares{
 	gap: 6px;
+	margin-left: 185px;
 }
