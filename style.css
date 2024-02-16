@@ -320,6 +320,9 @@ section {
 .say .middle_img {
 }
 .say .middle_img img {
+	-webkit-animation: 13s linear 0s normal none infinite running rot;
+    height: 165.69px;
+	margin: 0;
 }
 .flex {
 	display: flex;
@@ -988,6 +991,8 @@ footer {
 img.rot {
 	-webkit-animation: 13s linear 0s normal none infinite running rot;
 	height: 165.69px;
+	margin-left: 285px;
+	margin-top: -90px;
 }
 
 @keyframes rot {
