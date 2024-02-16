@@ -1,253 +1,408 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
-    <script src="core.js" defer></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>twiqs</title>
+        <link rel="stylesheet" href="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+        ">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+        "></script> -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+        <script src="core.js" defer></script>
+    </head>
 
-<body>
-    <nav class="header">
-        <div class="container">
-            <div class="header__wrap">
-                <div class="hamb">
-                    <div class="hamb__field" id="hamb">
-                        <span class="bar"></span> <span class="bar"></span>
-                        <span class="bar"></span>
+    <body>
+        <div class="toggle"></div>
+        <nav class="header">
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="hamb">
+                        <div class="hamb__field" id="hamb">
+                            <span class="bar"></span> <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                     </div>
-                </div>
-                <ul class="menu" id="menu">
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Sustainability</a></li>
-                </ul>
-                <div class="logo"><img src="img/logo.svg" alt=""></div>
-                <div class="header_icons flex">
-                    <a href="#" class="icon"><img src="img/Frame (2).svg" alt=""></a>
-                    <a href="#" class="icon"><img src="img/Frame (3).svg" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <div class="popup" id="popup"></div>
-    <section>
-        <div class="container">
-            <div class="small">
-                <div class="small_tit">Our smallest choices have the potential for the biggest impact. Let’s make good
-                    ones together.</div>
-                <button class="btn">Sustainability <div class="btn_img"><img src="img/znak.svg" alt=""></div></button>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="sellers">
-                <div class="sellers_left">
-                    <div class="sel_text">
-                        <div class="sel_tit">Our Best Sellers</div>
-                        <div class="sec_txt">Deliver a smile to yourself or someone special with one of our sustainable
-                            favorites.</div>
-                        <button class="btn">Shop all products</button>
+                    <ul class="menu" id="menu">
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                    <div class="logo"><img src="img/logo.svg" alt=""></div>
+                    <div class="header_icons flex">
+                        <a href="#" class="icon"><img src="img/Frame (2).svg" alt=""></a>
+                        <a href="#" class="icon"><img src="img/Frame (3).svg" alt="">
+                            <p class="pro">0</p>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="high flex">
-                <div class="high_img"><img src="img/ship.jpg" alt=""></div>
-                <div class="high_right">
-                    <div class="stars flex">
-                        <div class="star"><img src="img/star.svg" alt=""></div>
-                        <div class="star"><img src="img/star.svg" alt=""></div>
-                        <div class="star"><img src="img/star.svg" alt=""></div>
-                        <div class="star"><img src="img/star.svg" alt=""></div>
-                        <div class="star"><img src="img/star.svg" alt=""></div>
-                    </div>
-                    <div class="high_tit">Beautiful cards and very high quality. They were shipped to me very quickly and the packaging was awesome. Definitely recommend and will order again.</div>
-                    <div class="tirzan">- Tirzah -</div>
-                    <div class="squares flex">
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
+        </nav>
+        <div class="popup" id="popup"></div>
+        <section class="main">
+            <div class="container">
+                <div class="main_big">
+                    <div class="main_txt">the eco-friendly way to</div>
+                    <button class="btn">Shop Now<a href="#"></a></button>
+                    <div class="main_tit">Give the best wishes to your loved ones.</div>
+                </div>
+        </section>
+        <div class="min">
+            <div class="container">
+                <div class="mini">
+                    <div class="mini_text flex">
+                        <div class="mini_tit">Customer Feedback</div>
+                        <div class="star">
+                            <img src="img/stars.svg" alt="">
+                        </div>
+                        <div class="mini_tit">based on 1000+ Etsy Reviews</div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="led">
-                <div class="led_tit">Led by Transparency</div>
-                <div class="led_cards flex">
-                    <div class="led_card">
-                        <div class="led_img"><img src="img/led1.jpg" alt=""></div>
-                        <div class="led_txt">Partnering with small businesses in the USA.</div>
+        <section class="our"> 
+            <div class="container">
+                <div class="small">
+                    <div class="small_tit">Our smallest choices have the potential for the biggest impact. Let’s make good
+                        ones together.</div>
+                    <button class="btn">Sustainability <div class="btn_img"><img src="img/znak.svg" alt=""></div></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="best">
+            <div class="container">
+                <div class="sellers flex">
+                    <div class="sellers_left">
+                        <div class="sel_text">
+                            <div class="sell_tit">Our Best Sellers</div>
+                            <div class="sec_txt">Deliver a smile to yourself or someone special with one of our sustainable
+                                favorites.</div>
+                                
+                        </div>
                     </div>
-                    <div class="led_card">
-                        <div class="led_img"><img src="img/led2.jpg" alt=""></div>
-                        <div class="led_txt">Sustainable process from start to finish.</div>
-                    </div>
-                    <div class="led_card">
-                        <div class="led_img"><img src="img/led3.jpg" alt=""></div>
-                        <div class="led_txt">Unique designs and high-quality materials.</div>
-                    </div>
-                    <div class="led_card">
-                        <div class="led_img"><img src="img/led4.jpg" alt=""></div>
-                        <div class="led_txt">Fast shipping. Free on orders over $25.</div>
+                    <div class="sellers_right">
+                        <div class="slider">
+                            <div class="s_left"><img src="img/slider_left.svg" alt=""></div>
+                            <div class="s_right"><img src="img/slider_right.svg" alt=""></div>
+                            <!-- <button class="btn">Shop all products</button> -->
+                        </div>
+                        <div class="sell_cards flex">
+                            <div class="sell_card">
+                                <div class="sel_img">
+                                    <img src="img/sell1.jpg" alt="">
+                                </div>
+                                <div class="sel_tit">Assorted Card Set</div>
+                                <div class="sel_txt">Dogs</div>
+                                <div class="sel_txt">$ 14.00</div>
+                            </div>
+                                
+                            <div class="sell_card">
+                                <div class="sel_img">
+                                    <img src="img/sell2.jpg" alt="">
+                                </div>
+                                <div class="sel_tit">Assorted Card Set</div>
+                                <div class="sel_txt">North American Birds</div>
+                                <div class="sel_txt">$ 14.00</div>
+                            </div>
+                            <div class="sell_card">
+                                <div class="sel_img">
+                                    <img src="img/sell3.jpg" alt="">
+                                </div>
+                                <div class="sel_tit">North American Birds</div>
+                                <div class="sel_txt">New York, London, Paris</div>
+                                <div class="sel_txt">$ 13.00</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="birthday flex">
-                <div class="birthday_left">
-                    <div class="b_top">Inspiration</div>
-                    <div class="birth_tit">The Ultimate Guide: What to Write in a Birthday Card</div>
-                    <div class="birth_txt">Celebrate the life you have! Birthdays are the one time of year we get to
-                        celebrate those closest to us and we should take the opportunity to let them know just how much
-                        they are appreciated.</div>
-                        <button class="btn">Sustainability <div class="btn_img"><img src="img/znak.svg" alt=""></div></button>
+        </section>
+
+        <section class="qwerty">
+            <div class="container">
+                <div class="high flex">
+                    <div class="high_img"><img src="img/ship.jpg" alt=""></div>
+                    <div class="high_right">
+                        <div class="full-stars">
+                            <div class="rating-group">
+                                <input name="fst" value="0" type="radio" disabled checked />
+                                <label for="fst-1">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64068 13.4164L0.58728 8.2918H9.30578L12 0Z" />
+                                    </svg>
+                                </label>
+                                <input name="fst" id="fst-1" value="1" type="radio" />
+                                <label for="fst-2">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64068 13.4164L0.58728 8.2918H9.30578L12 0Z" />
+                                    </svg>
+                                </label>
+                                <input name="fst" id="fst-2" value="2" type="radio" />
+                                <label for="fst-3">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64068 13.4164L0.58728 8.2918H9.30578L12 0Z" />
+                                    </svg>
+                                </label>
+                                <input name="fst" id="fst-3" value="3" type="radio" />
+                                <label for="fst-4">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64068 13.4164L0.58728 8.2918H9.30578L12 0Z" />
+                                    </svg>
+                                </label>
+                                <input name="fst" id="fst-4" value="4" type="radio" />
+                                <label for="fst-5">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64068 13.4164L0.58728 8.2918H9.30578L12 0Z" />
+                                    </svg>
+                                </label>
+                                <input name="fst" id="fst-5" value="5" type="radio" />
+                            </div>
+                        </div>
+                        <div class="slider-container">
+                            <div class="slider">
+                                <div class="slide">Beautiful cards and very high quality. They were shipped to me very
+                                    quickly
+                                    and the packaging was awesome. Definitely recommend and will order again.</div>
+                                <div class="slide"></div>
+                                <div class="slide"></div>
+                            </div>
+                            <div class="tirzan">- Tirzah -</div>
+                            <div class="indicators">
+                                <div class="indicator"></div>
+                                <div class="indicator"></div>
+                                <div class="indicator"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="transparency">
+            <div class="container">
+                <div class="led">
+                    <div class="led_tit">Led by Transparency</div>
+                    <div class="led_cards flex">
+                        <div class="led_card">
+                            <div class="led_img"><img src="img/led1.jpg" alt=""></div>
+                            <div class="led_txt">Partnering with small businesses in the USA.</div>
+                        </div>
+                        <div class="led_card">
+                            <div class="led_img"><img src="img/led2.jpg" alt=""></div>
+                            <div class="led_txt">Sustainable process from start to finish.</div>
+                        </div>
+                        <div class="led_card">
+                            <div class="led_img"><img src="img/led3.jpg" alt=""></div>
+                            <div class="led_txt">Unique designs and high-quality materials.</div>
+                        </div>
+                        <div class="led_card">
+                            <div class="led_img"><img src="img/led4.jpg" alt=""></div>
+                            <div class="led_txt">Fast shipping. Free on orders over $25.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="birthday_card">
+            <div class="container">
+                <div class="birthday flex">
+                    <div class="birthday_left">
+                        <div class="b_top">Inspiration</div>
+                        <div class="birth_tit">The Ultimate Guide: What to Write in a Birthday Card</div>
+                        <div class="birth_txt">Celebrate the life you have! Birthdays are the one time of year we get to
+                            celebrate those closest to us and we should take the opportunity to let them know just how much
+                            they are appreciated.</div>
+                        <button class="btn">Sustainability <div class="btn_img"><img src="img/znak.svg" alt=""></div>
+                        </button>
+                    </div>
+                    <div class="birthday_right"><img src="img/birthday.jpg" alt="">
+                        <div class="middle_img">
+                            <img class="rot" src="img/journal.svg" alt="">
+                        </div>
+                    </div>
 
                 </div>
-                <div class="birthday_right"><img src="img/birthday.jpg" alt=""></div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="explore">
-                <div class="explore_tit">Explore our products</div>
-                <div class="cards">
-                    <div class="card">
-                        <div class="card_img">
-                            <img src="img/card3.jpg" alt="">
-                        </div>
-                        <div class="greeting">Greeting Cards</div>
-                    </div>
-                    <div class="card">
-                        <div class="card_img">
-                            <img src="img/card1.jpg" alt="">
-                        </div>
-                        <div class="greeting">Assorted Card Sets</div>
-                    </div>
-                    <div class="card">
-                        <div class="card_img">
-                            <img src="img/card3.jpg" alt="">
-                        </div>
-                        <div class="greeting">Notebooks</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="say">
-                <h3 class="say_tit">Say hi and follow along for updates</h3>
-                <div class="say_img">
-                    <img src="img/filter.png" alt="">
-                    <!-- <div class="say1">
-                        <img src="img/say1.jpg" alt="">
-                    </div>
-                    <div class="say2">
-                        <img src="img/say2.jpg" alt="">
-                    </div>
-                    <div class="say3">
-                        <img src="img/say3.jpg" alt="">
-                    </div>
-                    <div class="say4">
-                        <img src="img/say4.jpg" alt="">
-                    </div>
-                    <div class="say5">
-                        <img src="img/say5.jpg" alt="">
-                    </div>
-                    <div class="say6">
-                        <img src="img/say6.jpg" alt="">
-                    </div>
-                    <div class="say7">
-                        <img src="img/say7.jpg" alt="">
-                    </div> -->
-                </div>
-            </div>
+        </section>
 
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="footer">
-                <div class="footer_top">
-                    <div class="footer_logo"><img src="img/footer_logo.svg" alt=""></div>
-                    <div class="footer_icons">
-                        <a href="#" class="footer_icon">Instagram</a>
-                        <a href="#" class="footer_icon">Facebook</a>
-                    </div>
-                </div>
-                <div class="footer_cards flex">
-                    <div class="footer_card">
-                        <div class="card_top">Shop</div>
-                        <div class="white"></div>
-                        <div class="card_bottom">
-                            <div class="card_tit">Shop All</div>
-                            <div class="card_tit">Greeting Cards</div>
-                            <div class="card_tit">Assorted Card Sets</div>
-                            <div class="card_tit">Notebooks</div>
-                        </div>
-                    </div>
-                    <div class="footer_card">
-                        <div class="card_top">About</div>
-                        <div class="white"></div>
-                        <div class="card_bottom">
-                            <div class="card_tit">Our Story</div>
-                            <div class="card_tit">Our Values</div>
-                            <div class="card_tit">Journal</div>
-                            <div class="card_tit">Sustainability</div>
-                        </div>
-                    </div>
-                    <div class="footer_card">
-                        <div class="card_top">Customer Care</div>
-                        <div class="white"></div>
-                        <div class="card_bottom">
-                            <div class="card_tit">Contact Us</div>
-                            <div class="card_tit">FAQs</div>
-                            <div class="card_tit">Returns & Exchanges</div>
-                            <div class="card_tit">Support</div>
-                        </div>
-                    </div>
-                    <div class="footer_card">
-                        <div class="card_top">Wholesale</div>
-                        <div class="white"></div>
-                        <div class="card_bottom">
-                            <div class="card_tit">Overview</div>
-                            <div class="card_tit">Register as a Wholesaler</div>
-                            <div class="card_tit">Access the Wholesale Store</div>
+
+
+        <section class="board">
+            <div class="cards_body flex">
+                <div class="box-container">
+                    <div class="box-item">
+                        <div class="flip-box">
+                            <div class="flip-box-front text-center">
+                                <img src="img/card1.jpg" alt="">
+                                <div class="inner color-white">
+                                </div>
+                                <div class="greeting">Greeting Cards</div>
+                            </div>
+                            <div class="flip-box-back text-center">
+                                <img src="img/card1.jpg" alt="">
+                                <div class="inner color-white">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer_bottom flex">
-                    <div class="bottom_left">©2021 Twigs Paper. All Rights Reserved.</div>
-                    <div class="bottom_center">
-                        <div class="center_tit">Privacy Policy</div>
-                        <div class="center_tit">Terms & Conditions</div>
+                <div class="box-container">
+                    <div class="box-item">
+                        <div class="flip-box">
+                            <div class="flip-box-front text-center">
+                                <img src="img/card2.jpg" alt="">
+                                <div class="inner color-white">
+                                </div>
+                                <div class="greeting">Assorted Card Sets</div>
+                            </div>
+                            <div class="flip-box-back text-center">
+                                <img src="img/card2.jpg" alt="">
+                                <div class="inner color-white">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="bottom_right">Built by The Papestielliz</div>
+                </div>
+                <div class="box-container">
+                    <div class="box-item">
+                        <div class="flip-box">
+                            <div class="flip-box-front text-center">
+                                <img src="img/card3.jpg" alt="">
+                                <div class="inner color-white">
+                                </div>
+                                <div class="greeting">Notebooks</div>
+                            </div>
+                            <div class="flip-box-back text-center">
+                                <img src="img/card3.jpg" alt="">
+                                <div class="inner color-white">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="images">
+            <div class="container">
+                <div class="say">
+                    <h3 class="say_tit">Say hi and follow along for updates</h3>
+                    <div class="middle_img">
+                        <img class="rot" src="img/journal.svg" alt="">
+                    </div>
+                    <div class="up-img">
+                        <div class="top-img">
+                            <img class="img_1" src="img/say1.jpg" alt="">
+                        </div>
+                        <div class="bottom-img ">
+                            <img class="img_7" src="img/say7.jpg" alt="">
+                            <img class="img_6" src="img/say6.jpg" alt="">
+                            <img class="img_5" src="img/say5.jpg" alt="">
+                            <img class="img_4" src="img/say3.jpg" alt="">
+                            <img class="img_3" src="img/say4.jpeg" alt="">
+                            <img class="img_2" src="img/say2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="low-img flex">
+                        <section class="left">
+                            <img class="img_4" src="img/say4.jpeg" alt="">
+                            <img class="img_3" src="img/say3.jpg" alt="">
+                            <img class="img_2" src="img/say2.
+                            jpg" alt="">
+                            <img class="img_1" src="img/say1.jpg" alt="">
+                        </section>
+                        <section class="right">
+                            <img class="img_7" src="img/say7.jpg" alt="">
+                            <img class="img_6" src="img/say6.jpg" alt="">
+                            <img class="img_5" src="img/say5.jpg" alt="">
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer">
+                    <div class="footer_top">
+                        <div class="footer_logo"><img src="img/footer_logo.svg" alt=""></div>
+                        <div class="footer_icons">
+                            <a href="#" class="footer_icon">Instagram</a>
+                            <a href="#" class="footer_icon">Facebook</a>
+                        </div>
+                    </div>
+                    <div class="footer_cards flex">
+                        <div class="footer_card">
+                            <a href="#" class="card_top">Shop</a>
+                            <div class="white"></div>
+                            <div class="card_bottom">
+                                <a href="#" class="card_tit">Shop All</a>
+                                <a href="#" class="card_tit">Greeting Cards</a>
+                                <a href="#" class="card_tit">Assorted Card Sets</a>
+                                <a href="#" class="card_tit">Notebooks</a>
+                            </div>
+                        </div>
+                        <div class="footer_card">
+                            <a href="#" class="card_top">About</a>
+                            <div class="white"></div>
+                            <div class="card_bottom">
+                                <a href="#" class="card_tit">Our Story</a>
+                                <a href="#" class="card_tit">Our Values</a>
+                                <a href="#" class="card_tit">Journal</a>
+                                <a href="#" class="card_tit">Sustainability</a>
+                            </div>
+                        </div>
+                        <div class="footer_card">
+                            <a href="#" class="card_top">Customer Care</a>
+                            <div class="white"></div>
+                            <div class="card_bottom">
+                                <a href="#" class="card_tit">Contact Us</a>
+                                <a href="#" class="card_tit">FAQs</a>
+                                <a href="#" class="card_tit">Returns & Exchanges</a>
+                                <a href="#" class="card_tit">Support</a>
+                            </div>
+                        </div>
+                        <div class="footer_card">
+                            <a href="#" class="card_top">Wholesale</a>
+                            <div class="white"></div>
+                            <div class="card_bottom">
+                                <a href="#" class="card_tit">Overview</a>
+                                <a href="#" class="card_tit">Register as a Wholesaler</a>
+                                <a href="#" class="card_tit">Access the Wholesale Store</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_bottom flex">
+                        <div class="bottom_left">©2021 Twigs Paper. All Rights Reserved.</div>
+                        <div class="bottom_center">
+                            <a href="#" class="center_tit">Privacy Policy</a>
+                            <a href="#" class="center_tit">Terms & Conditions</a>
+                        </div>
+                        <a href="#" class="bottom_right">Built by The Papestielliz</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+    
+    </body>
 
-</html>
+    </html>
+
